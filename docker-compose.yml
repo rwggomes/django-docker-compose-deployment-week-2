@@ -24,7 +24,8 @@ services:
       - DB_NAME=mydatabase
       - DB_USER=user
       - DB_PASSWORD=password
-      - ALLOWED_HOSTS=localhost,127.0.0.1,0.0.0.0
+      - ALLOWED_HOSTS=localhost,127.0.0.1,0.0.0.0,ec2-54-233-224-70.sa-east-1.compute.amazonaws.com
+
 
     depends_on:
       db:
