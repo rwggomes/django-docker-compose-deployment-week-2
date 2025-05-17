@@ -11,7 +11,7 @@ services:
     networks:
       - app-network
     ports:
-      - "8000:8000"
+      - "80:8000"
     volumes:
       - ./app:/app
       - ./data/web:/vol/web
